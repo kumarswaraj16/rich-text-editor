@@ -1,0 +1,42 @@
+.editor {
+  position: relative;
+  left: 25%;
+  text-align: start;
+  height: 500px;
+  width: 50%;
+  border: 2px solid black;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 5px gray;
+  background-color: rgb(189, 168, 130);
+  font-size: 1.5em;
+}
+
+.title {
+  font-family: "Raedex Pro", sans-serif;
+  color: rgb(126, 104, 63);
+  font-size: large;
+  font-weight: 600;
+  text-align: start;
+  margin-top: 6%;
+  margin-left: 30%;
+}
+
+.title:hover {
+  color: orange;
+}
+
+.button {
+  font-size: 20px;
+  font-family: "Raedex Pro", sans-serif;
+  padding: 5px 20px;
+  border-radius: 1em;
+  cursor: pointer;
+  background: rgb(126, 104, 63);
+  margin-top: 5.8%;
+  margin-bottom: 1%;
+  margin-left: 25%;
+}
+
+.button:hover {
+  background: orange;
+}
